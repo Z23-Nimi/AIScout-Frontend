@@ -1,5 +1,5 @@
-const file = "/csvs/current.csv";
-const constantFile = "/csvs/constant_data.csv";
+const file = "./csvs/current.csv";
+const constantFile = "./csvs/constant_data.csv";
 
 Promise.all([
   fetch(file).then(response => response.text()),
